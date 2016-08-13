@@ -1,9 +1,9 @@
 #!/bin/bash
-# File: challenge.sh
+# File: linux_install_script.sh
 # Author: Tim Siwula <tcsiwula@usfca.edu>
 # Date: Wed Jul 6th 2016
 # This is a script that will install the latest versions of golang, mysql, nginx and docker across multiple linux distributions.
-# Run/Complie: bash challenge.sh
+# Run/Complie: bash linux_install_script.sh
 
 # 1 get system type and assign to varibale
 system_name=$(cat /etc/*-release)
